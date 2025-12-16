@@ -1,5 +1,16 @@
 public class Trabajadores {
 
+    private static Trabajador[] trabajadores= {
+            new Trabajador("Aitor", 2),
+            new Trabajador("Alba", 2),
+            new Trabajador("Ander", 1),
+            new Trabajador("Laura", 1),
+            new Trabajador("Nerea", 1),
+            new Trabajador("Edurne", 0),
+            new Trabajador("Tasio", 0),
+            new Trabajador("Iosu", 0),
+    };
+
     public static Trabajador getTrabajador(int numero) {
         switch (numero) {
             case 1: return new Trabajador("Aitor", 2);
@@ -26,9 +37,18 @@ public class Trabajadores {
         //  6. Edurne    20 E.
         //  7. Tasio     20 E.
         //  8. Iosu      20 E.
+        for (int i = 0; i < trabajadores.length; i++) {
+            System.out.printf("%2d. %-8s %3d E.\n",
+                    i+1,
+                    trabajadores[i].getNombre(),
+                    trabajadores[i].getPrecioHora());
+        }
 
 
+    }
 
+    public static void main(String[] args) {
+        mostrar();
     }
 
 }
