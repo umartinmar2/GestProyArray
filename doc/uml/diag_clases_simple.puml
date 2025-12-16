@@ -1,0 +1,30 @@
+@startuml
+class App {
+}
+class Trabajadores {
+}
+class Ctes {
+}
+class Equipo {
+}
+class Main {
+}
+class GestProy {
+}
+class Proyecto {
+}
+class Gui {
+}
+class Trabajador {
+}
+Main .right.> App
+App -right-> GestProy
+App .up.> Gui
+Trabajadores .right.> Trabajador
+GestProy *-right> Proyecto
+Proyecto -right-> Equipo
+Equipo *-> Trabajador
+GestProy .up.> Trabajadores
+GestProy .up.> Trabajador
+Proyecto ..> Trabajador
+@enduml

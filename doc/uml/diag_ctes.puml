@@ -1,0 +1,17 @@
+@startuml
+class Ctes {
++ {static} int NUM_TRABAJADORES_EMPRESA
++ {static} int MAX_NUM_PARTICIPANTES_EQUIPO
++ {static} int MAX_NUM_PROYECTOS_GESTOR
++ {static} int CAT_PRACTICAS
++ {static} int CAT_JUNIOR
++ {static} int CAT_SENIOR
++ {static} int PRECIO_HORA_PRACTICAS
++ {static} int PRECIO_HORA_JUNIOR
++ {static} int PRECIO_HORA_SENIOR
++ {static} int OPC_CREAR_PROY
++ {static} int OPC_TERMINAR_PROY
++ {static} int OPC_METER_HORAS_PROY
++ {static} int OPC_MOSTRAR_PROYS
+}
+@enduml

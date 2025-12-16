@@ -1,0 +1,45 @@
+@startuml
+class App {
+- GestProy gestProy
+}
+class Trabajadores {
+}
+class Ctes {
+}
+class Equipo {
+- Trabajador lider
+- Trabajador participante1
+- Trabajador participante2
+- Trabajador participante3
+}
+class Main {
+}
+class GestProy {
+- Proyecto proyecto1
+- Proyecto proyecto2
+- Proyecto proyecto3
+- Proyecto proyecto4
+}
+class Proyecto {
+- String nombre
+- Equipo equipo
+- int horas
+- int presupuesto
+}
+class Gui {
+}
+class Trabajador {
+- String nombre
+- int categoria
+}
+Main .right.> App
+App -right-> GestProy
+App .up.> Gui
+Trabajadores .right.> Trabajador
+GestProy *-right> Proyecto
+Proyecto -right-> Equipo
+Equipo *-> Trabajador
+GestProy .up.> Trabajadores
+GestProy .up.> Trabajador
+Proyecto ..> Trabajador
+@enduml

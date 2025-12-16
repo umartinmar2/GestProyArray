@@ -1,0 +1,96 @@
+@startuml
+class Trabajadores {
++ {static} Trabajador getTrabajador(int)
++ {static} void mostrar()
+}
+class Ctes {
++ {static} int NUM_TRABAJADORES_EMPRESA
++ {static} int MAX_NUM_PARTICIPANTES_EQUIPO
++ {static} int MAX_NUM_PROYECTOS_GESTOR
++ {static} int CAT_PRACTICAS
++ {static} int CAT_JUNIOR
++ {static} int CAT_SENIOR
++ {static} int PRECIO_HORA_PRACTICAS
++ {static} int PRECIO_HORA_JUNIOR
++ {static} int PRECIO_HORA_SENIOR
++ {static} int OPC_CREAR_PROY
++ {static} int OPC_TERMINAR_PROY
++ {static} int OPC_METER_HORAS_PROY
++ {static} int OPC_MOSTRAR_PROYS
+}
+class Equipo {
+- Trabajador lider
+- Trabajador participante1
+- Trabajador participante2
+- Trabajador participante3
++ int getMaxNumeroParticipantes()
++ Trabajador getParticipante(int)
++ void setParticipante(int,Trabajador)
++ boolean tieneLider()
++ Trabajador getLider()
++ void setLider(int)
++ int getNumeroParticipantes()
++ boolean estaEquipoCompleto()
++ boolean addParticipante(Trabajador)
++ void mostrar()
++ int getPrecioHora()
+}
+class GestProy {
+- Proyecto proyecto1
+- Proyecto proyecto2
+- Proyecto proyecto3
+- Proyecto proyecto4
++ Proyecto getProyecto(int)
++ void setProyecto(int,Proyecto)
++ void terminarProyecto(int)
++ boolean puedeHaberMasProyectos()
++ int getMaxNumProyectos()
++ int getCantidadProyectosActivos()
++ boolean addHorasProyecto(int,int)
++ int addProyectoNuevo(String,int)
++ boolean addParticipanteProyecto(int,int)
++ void mostrarProyectos()
++ void mostrarEquipoProyecto(int)
++ void setLiderProyecto(int,int)
++ void mostrarTrabajadoresEmpresa()
+}
+class Proyecto {
+- String nombre
+- Equipo equipo
+- int horas
+- int presupuesto
++ <<Create>> Proyecto(String)
++ <<Create>> Proyecto(String,int)
++ String getNombre()
++ void setNombre(String)
++ int getHoras()
++ void setHoras(int)
++ double getPresupuesto()
++ void setPresupuesto(int)
++ void addHoras(int)
++ int getPrecio()
++ boolean addParticipante(Trabajador)
++ Trabajador getLider()
++ void setLider(int)
++ void mostrarEquipo()
++ String toString()
+}
+class Trabajador {
+- String nombre
+- int categoria
++ <<Create>> Trabajador(String,int)
++ <<Create>> Trabajador(String)
++ String getNombre()
++ int getPrecioHora()
++ int getCategoria()
++ void setCategoria(int)
++ String toString()
+}
+Trabajadores .right.> Trabajador
+GestProy *-right> Proyecto
+Proyecto -right-> Equipo
+Equipo *-> Trabajador
+GestProy .up.> Trabajadores
+GestProy .up.> Trabajador
+Proyecto ..> Trabajador
+@enduml

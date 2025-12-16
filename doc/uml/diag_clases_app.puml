@@ -1,0 +1,22 @@
+@startuml
+class App {
+- GestProy gestProy
++ <<Create>> App()
++ void run()
+- void ejecutarOpcion(int)
+- void crearProyecto()
+- void terminarProyecto()
+- void meterHorasProyecto()
+- void mostrarProyectos()
+}
+class Main {
++ {static} void main(String[])
+}
+class Gui {
++ {static} void mostrarMenu()
++ {static} int leerNumero(String)
++ {static} String leerTexto(String)
+}
+Main .right.> App
+App .up.> Gui
+@enduml

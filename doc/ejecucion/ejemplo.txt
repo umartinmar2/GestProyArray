@@ -1,0 +1,490 @@
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Nombre del proyecto: CartasCoches
+Presupuesto para el proyecto: 1200
+Define el equipo de desarrollo:
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 1
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 7
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 8
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 0
+Define el líder del equipo:
+1. Aitor     90 E.
+2. Tasio     20 E.
+3. Iosu      20 E.
+El líder es el número (0 para ninguno): 1
+Proyecto agregado con el número 1
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 1 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Nombre del proyecto: Trisk
+Presupuesto para el proyecto: 1000
+Define el equipo de desarrollo:
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 2
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 5
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 0
+Define el líder del equipo:
+1. Alba      90 E.
+2. Nerea     50 E.
+El líder es el número (0 para ninguno): 2
+Proyecto agregado con el número 2
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 2 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              0 h.         0      1000     +1000
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 2
+Indica el número de horas a añadir: 4
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 2 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              4 h.       560      1000      +440
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Nombre del proyecto: Armario
+Presupuesto para el proyecto: 1400
+Define el equipo de desarrollo:
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 5
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 6
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 0
+Define el líder del equipo:
+1. Nerea     50 E.
+2. Edurne    20 E.
+El líder es el número (0 para ninguno): 1
+Proyecto agregado con el número 3
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 3 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              4 h.       560      1000      +440
+3. Armario             Nerea              0 h.         0      1400     +1400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 3
+Indica el número de horas a añadir: 10
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 3 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              4 h.       560      1000      +440
+3. Armario             Nerea             10 h.       700      1400      +700
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Nombre del proyecto: Marraz  
+Presupuesto para el proyecto: 900
+Define el equipo de desarrollo:
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 4
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 0
+Define el líder del equipo:
+1. Laura     50 E.
+El líder es el número (0 para ninguno): 1
+Proyecto agregado con el número 4
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 5
+Ese proyecto no existe.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 4 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              4 h.       560      1000      +440
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura              0 h.         0       900      +900
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 4
+Indica el número de horas a añadir: 10
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 4 proyectos.
+1. CartasCoches        Aitor              0 h.         0      1200     +1200
+2. Trisk               Nerea              4 h.       560      1000      +440
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura             10 h.       500       900      +400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 1
+Indica el número de horas a añadir: 10
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 4 proyectos.
+1. CartasCoches        Aitor             10 h.      1300      1200      -100
+2. Trisk               Nerea              4 h.       560      1000      +440
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura             10 h.       500       900      +400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 2
+Indica el número del proyecto a cerrar: 2
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 3 proyectos.
+1. CartasCoches        Aitor             10 h.      1300      1200      -100
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura             10 h.       500       900      +400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Nombre del proyecto: GestProy
+Presupuesto para el proyecto: 1000
+Define el equipo de desarrollo:
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 3
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 6
+ 1. Aitor     90 E.
+ 2. Alba      90 E.
+ 3. Ander     50 E.
+ 4. Laura     50 E.
+ 5. Nerea     50 E.
+ 6. Edurne    20 E.
+ 7. Tasio     20 E.
+ 8. Iosu      20 E.
+Número del trabajador (0 para terminar): 0
+Define el líder del equipo:
+1. Ander     50 E.
+2. Edurne    20 E.
+El líder es el número (0 para ninguno): 1
+Proyecto agregado con el número 2
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 4 proyectos.
+1. CartasCoches        Aitor             10 h.      1300      1200      -100
+2. GestProy            Ander              0 h.         0      1000     +1000
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura             10 h.       500       900      +400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 3
+Indica el número del proyecto: 2
+Indica el número de horas a añadir: 12
+Hecho.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 4
+Hay 4 proyectos.
+1. CartasCoches        Aitor             10 h.      1300      1200      -100
+2. GestProy            Ander             12 h.       840      1000      +160
+3. Armario             Nerea             10 h.       700      1400      +700
+4. Marraz              Laura             10 h.       500       900      +400
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 1
+Termina algún proyecto para crear uno nuevo.
+*****************************************
+*            G E S T P R O Y            *
+*****************************************
+ 1. Crear un proyecto
+ 2. Terminar un proyecto
+ 3. Añadir horas a un proyecto
+ 4. Mostrar proyectos
+ 0. Exit
+*****************************************
+Opción: 0
