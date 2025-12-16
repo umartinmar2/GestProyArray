@@ -48,6 +48,11 @@ public class Trabajador {
         System.out.println(t1);
         Trabajador t2 = new Trabajador("Juanito");
         t2.setCategoria(Ctes.CAT_PRACTICAS);
-        System.out.println(t1);
+        System.out.println(t2);
+        Trabajador t3 = new Trabajador("Test");
+        System.out.println(t3);
+        Trabajador t4 = new Trabajador("Alberto");
+        t2.setCategoria(Ctes.CAT_SENIOR);
+        System.out.println(t4);
     }
 }
