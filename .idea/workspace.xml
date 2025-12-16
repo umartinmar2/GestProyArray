@@ -25,9 +25,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "alum",
-    "last_opened_file_path": "/Users/adore/EDU/PROG2324/EXAMS/UT04/GestProy-alum",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/datos/Documents/adsda/GestProy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
