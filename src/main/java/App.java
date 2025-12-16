@@ -4,6 +4,7 @@ public class App {
 
     public App() {
         // TODO 11: Inicializar atributos
+        // TODO 88 : hacer el TODO 11
 
     }
 
