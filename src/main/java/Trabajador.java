@@ -55,4 +55,7 @@ public class Trabajador {
         t2.setCategoria(Ctes.CAT_SENIOR);
         System.out.println(t4);
     }
+
+    // Comentario
+    // patata
 }
