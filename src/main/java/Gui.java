@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Gui {
 
+    //Menú
     public static void mostrarMenu() {
         System.out.println("*****************************************");
         System.out.println("*            G E S T P R O Y            *");
