@@ -43,4 +43,8 @@ public class Trabajador {
         return String.format("%-8s %3d E.", nombre,getPrecioHora());
     }
 
+    public static void main(String[] args) {
+        Trabajador t1 = new Trabajador("Juan");
+        System.out.println(t1);
+    }
 }
